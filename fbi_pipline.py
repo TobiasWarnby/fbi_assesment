@@ -12,7 +12,7 @@ res = requests.get("https://api.fbi.gov/wanted/v1/list")
 data = res.json()
 
 
-#Transforme
+#Transforme.
 
 # create a list than i later can append the transformed data.
 data_filtered = []

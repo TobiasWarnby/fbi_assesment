@@ -6,7 +6,7 @@ import requests
 from pprint import pprint
 import pandas as pd
 
-# get the most wanted file from fictional FBI.
+# get the most wanted file from FBI.
 res = requests.get("https://api.fbi.gov/wanted/v1/list")
 #convert to json
 data = res.json()
